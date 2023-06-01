@@ -1,9 +1,19 @@
-//String array
-    char cars[][10] = {"Toyota", "Mustang", "Tesla", "Corvette", "Lamborghini"};
-    int theSize = sizeof(cars) / sizeof(cars[0]);
+ // srand(time(0));
 
-    //to change/assign element to an index use "strcpy()"
-    strcpy(cars[0], "Rolce Royce");
+    // int size;
+   
+    // printf("\n\nEnter size of array: ");
+    // scanf("%d", &size);
 
-    for(int i = 0; i < theSize; i++)
-        printf("\n%d. %s", i+1, cars[i]);
+    // int *array = (int*) malloc(size * sizeof(int)); //--> memory will be stored in heap
+
+    // //double the size of the array using realloc function
+    // array = (int*) realloc(array, 2* size*sizeof(int));
+
+    // for(int i = 0; i < 2*size; i++)
+    //     *(array + i) = (rand() % 101);
+    
+    // for(int i = 0; i < 2*size; i++)
+    //     printf("%d  ", array[i]);
+
+    // free(array);
